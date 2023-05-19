@@ -55,7 +55,8 @@ std::string Date::toString() const {
             "Sep",
             "Oct",
             "Nov",
-            "Dec"};
+            "Dec"
+    };
     out << monthName[month - 1] << " " << day << ", " << year;
     return out.str();
 }
